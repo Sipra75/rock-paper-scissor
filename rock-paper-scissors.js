@@ -81,7 +81,8 @@ function playGame(playerMove){
    Result.classList.add('result-para');
 
    const Moves=document.querySelector('.js-move');
-    Moves.innerHTML=`You 
+    Moves.innerHTML=
+    `You 
     <img src="images/${playerMove}-emoji.png" class="move-icon"> 
     <img src="images/${computerMove}-emoji.png" class="move-icon"> 
     Computer`;
