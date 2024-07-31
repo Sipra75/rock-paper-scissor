@@ -47,7 +47,7 @@ function playGame(playerMove){
     result='You lose.';
   }
     }
-    else{
+    else if(playerMove==='rock'){
       if(computerMove==='rock'){
     result='Tie.';
   }
